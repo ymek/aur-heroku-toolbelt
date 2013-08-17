@@ -7,16 +7,10 @@ pkgdesc="Everything you need to get started using Heroku"
 arch=(any)
 url="https://toolbelt.heroku.com"
 license=(MIT APACHE RUBY PerlArtistic GPL custom)
-groups=()
 depends=("ruby>=1.9")
 makedepends=("ruby-bundler")
 optdepends=(git)
-provides=()
 conflicts=(ruby-heroku ruby-foreman heroku-client)
-replaces=()
-backup=()
-options=()
-install=
 source=(http://assets.heroku.com.s3.amazonaws.com/heroku-client/${_herokuname}.tgz)
 md5sums=(SKIP)
 
