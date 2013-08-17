@@ -3,14 +3,14 @@ _herokuname=heroku-client
 pkgname=heroku-toolbelt
 pkgver=2.40.0
 pkgrel=1
-pkgdesc="Everything you need to get started using Heroku"
-arch=(any)
-url="https://toolbelt.heroku.com"
-license=(MIT APACHE RUBY PerlArtistic GPL custom)
-depends=("ruby>=1.9")
-makedepends=("ruby-bundler")
-optdepends=(git)
-conflicts=(ruby-heroku ruby-foreman heroku-client)
+pkgdesc='Everything you need to get started using Heroku'
+arch=('any')
+url='https://toolbelt.heroku.com'
+license=('MIT' 'APACHE' 'RUBY' 'PerlArtistic' 'GPL' 'custom')
+depends=('ruby>=1.9')
+makedepends=('ruby-bundler')
+optdepends=('git')
+conflicts=('ruby-heroku' 'ruby-foreman' 'heroku-client')
 source=(http://assets.heroku.com.s3.amazonaws.com/heroku-client/${_herokuname}.tgz)
 md5sums=(SKIP)
 
