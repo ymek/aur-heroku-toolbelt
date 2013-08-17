@@ -4,7 +4,7 @@ pkgname=heroku-toolbelt
 pkgver=2.40.0
 pkgrel=1
 pkgdesc='Everything you need to get started using Heroku'
-arch=('any')
+arch=('i686' 'x86_64')
 url='https://toolbelt.heroku.com'
 license=('MIT' 'APACHE' 'RUBY' 'PerlArtistic' 'GPL' 'custom')
 depends=('ruby>=1.9')
